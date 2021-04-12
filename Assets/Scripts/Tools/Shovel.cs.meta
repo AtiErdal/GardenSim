@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5c728ca2302a7c64f9a9ac567e813115
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - placeableObjectPrefab: {instanceID: 0}
+  - previewObject: {instanceID: 0}
+  - Full_Dirt: {instanceID: 0}
+  - fpsCam: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
