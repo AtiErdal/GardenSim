@@ -8,20 +8,24 @@ public class ItemDatabaseScript : ScriptableObject, ISerializationCallbackReceiv
 {
     
     public ItemScript[] Items;
-    public Dictionary<int, ItemScript> GetItem = new Dictionary<int, ItemScript>();
+
+    [ContextMenu("Ipdate ID's")]
+    public void UpdateID()
+    {
+        for (int i = 0; i < Items.Length; i++)
+        {
+            if (Items[i].data.ID != i)
+                Items[i].data.ID = i;
+        }
+        
+    }
 
     public void OnAfterDeserialize()
     {
-        GetItem = new Dictionary<int, ItemScript>();
-        for (int i = 0; i < Items.Length; i++)
-        {
-            Items[i].ID = i;
-            GetItem.Add(i, Items[i]);
-        }
+        UpdateID();
     }
 
     public void OnBeforeSerialize()
     {
-        GetItem = new Dictionary<int, ItemScript>();
     }
 }

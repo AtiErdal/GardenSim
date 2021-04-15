@@ -16,75 +16,67 @@ MonoBehaviour:
   database: {fileID: 11400000, guid: 5da182061e50ca74288b1161b00d09a4, type: 2}
   Container:
     Items:
-    - AllowedItems: 0000000002000000
+    - AllowedItems: 0200000000000000
       parent: {fileID: 0}
-      ID: -1
       item:
         Name: 
-        ID: 0
-        amount: 0
-        price: 0
-      amount: 0
-    - AllowedItems: 0000000002000000
-      parent: {fileID: 0}
-      ID: -1
-      item:
-        Name: 
-        ID: 0
-        amount: 0
-        price: 0
-      amount: 0
-    - AllowedItems: 0000000002000000
-      parent: {fileID: 0}
-      ID: -1
-      item:
-        Name: 
-        ID: 0
+        ID: -1
         amount: 0
         price: 0
       amount: 0
     - AllowedItems: 0200000000000000
       parent: {fileID: 0}
-      ID: -1
       item:
         Name: 
-        ID: 0
+        ID: -1
         amount: 0
         price: 0
       amount: 0
     - AllowedItems: 0200000000000000
       parent: {fileID: 0}
-      ID: -1
       item:
         Name: 
-        ID: 0
+        ID: -1
         amount: 0
         price: 0
       amount: 0
     - AllowedItems: 0200000000000000
       parent: {fileID: 0}
-      ID: -1
       item:
         Name: 
-        ID: 0
+        ID: -1
         amount: 0
         price: 0
       amount: 0
     - AllowedItems: 0200000000000000
       parent: {fileID: 0}
-      ID: -1
       item:
         Name: 
-        ID: 0
+        ID: -1
         amount: 0
         price: 0
       amount: 0
     - AllowedItems: 0200000000000000
       parent: {fileID: 0}
-      ID: -1
       item:
         Name: 
-        ID: 0
+        ID: -1
+        amount: 0
+        price: 0
+      amount: 0
+    - AllowedItems: 0200000000000000
+      parent: {fileID: 0}
+      item:
+        Name: 
+        ID: -1
+        amount: 0
+        price: 0
+      amount: 0
+    - AllowedItems: 0200000000000000
+      parent: {fileID: 0}
+      item:
+        Name: 
+        ID: -1
         amount: 0
         price: 0
       amount: 0

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public MouseItem mouseItem = new MouseItem();
     public InventoryScript inventory;
+    public InventoryScript equipment;
     public bool inventoryEnabled;
     public GameObject showInventory;
     public GameObject instructions;
@@ -20,8 +20,11 @@ public class Player : MonoBehaviour
                 var item = other.GetComponent<GroundItem>();
                 if (item)
                 {
-                    inventory.AddItem(new Item(item.item),1);
-                    Destroy(other.gameObject);
+                    Item _item = new Item(item.item);
+                    if(inventory.AddItem(_item, 1))
+                    {
+                        Destroy(other.gameObject);
+                    }
                     instructions.SetActive(false);
                 }
             }
@@ -67,15 +70,18 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F1))
         {
             inventory.Save();
+            equipment.Save();
         }
         if (Input.GetKeyDown(KeyCode.F2))
         {
             inventory.Load();
+            equipment.Load();
         }
     }
 
     private void OnApplicationQuit()
     {
-        inventory.Container.Items = new InventorySlot[32];
+        inventory.Container.Clear();
+        equipment.Container.Clear();
     }
 }

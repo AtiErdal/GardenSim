@@ -17,17 +17,13 @@ public enum Prices
 public abstract class ItemScript : ScriptableObject
 {
     public Sprite uiDisplay;
-    public int ID;
     public ItemType type;
     public string desc;
     public Sprite icon;
     public int amount = 1;
-    public int price;
-    public bool isPickable;
-    public bool pickedUp;
+    public bool stackable;
+    public Item data = new Item();
     
-
-
     public Item CreateItem()
     {
         Item newItem = new Item(this);
@@ -38,7 +34,7 @@ public abstract class ItemScript : ScriptableObject
 public class Item
 {
     public string Name;
-    public int ID;
+    public int ID = -1;
     public int amount;
     public int price;
     public Item()
@@ -49,9 +45,9 @@ public class Item
     public Item(ItemScript item)
     {
         Name = item.name;
-        ID = item.ID;
+        ID = item.data.ID;
         amount = item.amount;
-        price = item.price;
+        price = item.data.price;
     }
 }
 
