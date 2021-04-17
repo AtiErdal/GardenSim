@@ -16,11 +16,11 @@ MonoBehaviour:
   type: 1
   desc: A nice red tomato
   icon: {fileID: 21300000, guid: bb7faf4c850ef48cdb33c2bd17737619, type: 3}
-  amount: 3
+  amount: 0
   stackable: 1
   data:
     Name: 
     ID: 1
-    amount: 0
-    price: 0
+    amount: 3
+    price: 10
   grown: 0
