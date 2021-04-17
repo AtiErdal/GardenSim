@@ -15,9 +15,8 @@ MonoBehaviour:
   savePath: 
   database: {fileID: 11400000, guid: 5da182061e50ca74288b1161b00d09a4, type: 2}
   Container:
-    Items:
+    Slots:
     - AllowedItems: 0200000000000000
-      parent: {fileID: 0}
       item:
         Name: 
         ID: -1
@@ -25,7 +24,6 @@ MonoBehaviour:
         price: 0
       amount: 0
     - AllowedItems: 0200000000000000
-      parent: {fileID: 0}
       item:
         Name: 
         ID: -1
@@ -33,7 +31,6 @@ MonoBehaviour:
         price: 0
       amount: 0
     - AllowedItems: 0200000000000000
-      parent: {fileID: 0}
       item:
         Name: 
         ID: -1
@@ -41,7 +38,6 @@ MonoBehaviour:
         price: 0
       amount: 0
     - AllowedItems: 0200000000000000
-      parent: {fileID: 0}
       item:
         Name: 
         ID: -1
@@ -49,7 +45,6 @@ MonoBehaviour:
         price: 0
       amount: 0
     - AllowedItems: 0200000000000000
-      parent: {fileID: 0}
       item:
         Name: 
         ID: -1
@@ -57,7 +52,6 @@ MonoBehaviour:
         price: 0
       amount: 0
     - AllowedItems: 0200000000000000
-      parent: {fileID: 0}
       item:
         Name: 
         ID: -1
@@ -65,7 +59,6 @@ MonoBehaviour:
         price: 0
       amount: 0
     - AllowedItems: 0200000000000000
-      parent: {fileID: 0}
       item:
         Name: 
         ID: -1
@@ -73,7 +66,6 @@ MonoBehaviour:
         price: 0
       amount: 0
     - AllowedItems: 0200000000000000
-      parent: {fileID: 0}
       item:
         Name: 
         ID: -1

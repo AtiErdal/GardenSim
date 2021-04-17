@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
 
     public void OnTriggerStay(Collider other)
     {
-        if (other.tag == "Plant")
+        if (other.tag == "Plant" || other.tag == "Equipment")
         {
             instructions.SetActive(true);
             if (Input.GetKeyDown(KeyCode.E))

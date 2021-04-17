@@ -12,9 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52d7eb0c58e6148408d6b1bddb164237, type: 3}
   m_Name: Shovel
   m_EditorClassIdentifier: 
-  ID: 1
+  uiDisplay: {fileID: 21300000, guid: b962cf1f8dd384a4b8bc0db54c6d9602, type: 3}
   type: 2
   desc: Your best friend to dig a hole
-  icon: {fileID: 0}
-  isPickable: 0
-  pickedUp: 0
+  icon: {fileID: 21300000, guid: b962cf1f8dd384a4b8bc0db54c6d9602, type: 3}
+  amount: 1
+  stackable: 0
+  data:
+    Name: 
+    ID: 2
+    amount: 0
+    price: 0

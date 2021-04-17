@@ -7,15 +7,15 @@ using UnityEngine;
 public class ItemDatabaseScript : ScriptableObject, ISerializationCallbackReceiver
 {
     
-    public ItemScript[] Items;
+    public ItemScript[] ItemScripts;
 
     [ContextMenu("Ipdate ID's")]
     public void UpdateID()
     {
-        for (int i = 0; i < Items.Length; i++)
+        for (int i = 0; i < ItemScripts.Length; i++)
         {
-            if (Items[i].data.ID != i)
-                Items[i].data.ID = i;
+            if (ItemScripts[i].data.ID != i)
+                ItemScripts[i].data.ID = i;
         }
         
     }
