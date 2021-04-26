@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2a1f14312d40984093c4ab48f57f199, type: 3}
   m_Name: EquipmentInventory
   m_EditorClassIdentifier: 
-  savePath: 
+  savePath: /inventory.save
   database: {fileID: 11400000, guid: 5da182061e50ca74288b1161b00d09a4, type: 2}
   Container:
     Slots:

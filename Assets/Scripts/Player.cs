@@ -31,9 +31,10 @@ public class Player : MonoBehaviour
     }
     }
 
+
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Plant")
+        if (other.tag == "Plant" || other.tag == "Equipment")
         {
             instructions.SetActive(false);
         }
@@ -82,6 +83,5 @@ public class Player : MonoBehaviour
     private void OnApplicationQuit()
     {
         inventory.Clear();
-        equipment.Clear();
     }
 }

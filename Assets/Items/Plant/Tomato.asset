@@ -21,6 +21,6 @@ MonoBehaviour:
   data:
     Name: 
     ID: 1
-    amount: 3
-    price: 10
-  grown: 0
+    amount: 0
+    price: 0
+  grown: 1
